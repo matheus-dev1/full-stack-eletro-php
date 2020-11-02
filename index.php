@@ -1,3 +1,5 @@
+<?php include_once('conexao.php');?>
+
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
@@ -6,12 +8,7 @@
     <title> Full Stack Eletro - Pagina Inicial</title>
 </head>
 <body>
-    <nav class="menu">
-        <a href="index.html"><img src="./imgs/logo.png" width="100" height="70" alt="Logo Full Stack Eletro"></a>
-        <a class="itensMenu" href="produtos.html">Nossos Produtos</a>
-        <a class="itensMenu" href="lojas.html">Nossas Lojas</a>
-        <a class="itensMenu" href="contato.html">Entre em Contato</a>
-    </nav>
+    <?php include_once('menu.html');?>
     <!--tag <nav> e usada quando precisamos fazer um grupo de links
     Esta e um tag semantica, porque ela faz muito mais sentido eu olhar
     para esta tag e identificar que se trata de uma barra de navegacao.-->

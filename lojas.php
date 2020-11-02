@@ -1,3 +1,5 @@
+<?php include_once('conexao.php');?>
+
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
@@ -6,12 +8,7 @@
     <title>Full Stack Eletro - Nossas Lojas</title>
 </head>
 <body>
-    <nav class="menu">
-        <a href="index.html"><img src="./imgs/logo.png" width="100" height="70" alt="Logo Full Stack Eletro"></a>
-        <a class="itensMenu" href="produtos.html">Nossos Produtos</a>
-        <a class="itensMenu" href="lojas.html">Nossas Lojas</a>
-        <a class="itensMenu" href="contato.html">Entre em Contato</a>
-    </nav>
+<?php include_once('menu.html');?>
 
     <br><br><br><br><br>
 
