@@ -8,6 +8,6 @@ $conection = mysqli_connect($servername, $username, $userpassword, $database);
 
 if ($conection == false)
     {
-        die("A conexao falhou ".mysqli_connect_error());
+        die("A conexao falhou " . mysqli_connect_error());
     }
 ?>

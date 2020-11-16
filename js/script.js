@@ -9,6 +9,8 @@ function exibirProdutos (produto) {
     console.log(produtos)
     for (let indice = 0; indice < produtos.length; indice++){
         if (produtos[indice].id == produto){
+            console.log(produtos[indice].id)
+            console.log(produto)
             produtos[indice].style = "display: inline-block";
             /*Caso o item em que nos clicamos seja igual ao indice do produto do array obtido atraves das classes entao ele tera a propriedade display
             inline-block fazendo com que os produtos do mesmo tipo fiquem um do lado do outro.*/
@@ -22,6 +24,7 @@ function exibirProdutos (produto) {
 
 let exibirTodosProdutos = () => {
     let produtos = document.getElementsByClassName("div_produtos")
+    console.log(produtos)
     /*Aqui na linha de cima estamos pegando um array de todos as classes "div_produtos"*/
     for (let indice = 0; indice < produtos.length; indice++){
         /*Aqui vamos pasar um por um*/
