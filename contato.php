@@ -37,22 +37,28 @@
     </div>
 </header>
 
-    <hr><br>
+<hr><br>
     
 <form class="container" action="" name="mensagem" method="POST">
-    <div class="form-group">
-        <label for="nome">Nome: </label>
-        <input class="espaco_interno form-control" aria-describedby="nameHelp" type="text" name="nome" id="nome" value="" placeholder="Digite o seu nome">
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Nome:</span>
+        </div>
+        <input class="form-control" aria-describedby="nameHelp" type="text" name="nome" id="nome" value="" placeholder="Exemplo: Matheus de Oliveira Silva">
     </div>
 
-    <div class="form-group">
-        <label for="email">Endereco de E-mail: </label>
-        <input class="espaco_interno form-control" type="email" name="email" id="email" value="" placeholder="Digite o seu e-mail">
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">E-mail:</span>
+        </div>
+        <input class="form-control" type="email" name="email" id="email" value="" placeholder="Exemplo: exemplo@exemplo.com">
     </div>
 
-    <div class="form-group">
-        <label for="select">Assunto: </label>
-        <select class="espaco_interno form-control" name="assunto" id="assunto">
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Assunto:</span>
+        </div>
+        <select class="form-control" name="assunto" id="assunto">
             <option value="relamacao">Relamacao</option>
             <option value="elogio">Elogio</option>
             <option value="duvida">Duvida</option>
@@ -60,9 +66,11 @@
         </select>
     </div>
 
-    <div class="form-group">
-        <label for="mensagem">Mensagem: </label>
-        <textarea class="espaco_interno form-control" name="mensagem" id="mensagem" value="" cols="30" rows="5" placeholder="Digite uma mensagem"></textarea>
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Assunto:</span>
+        </div>
+        <textarea class="form-control" name="mensagem" id="mensagem" value="" cols="20" rows="2" placeholder="Exemplo: Otima lista de produtos"></textarea>
     </div>
 
     <button class="btn btn-primary espaco_interno form-control" type="submit" name="submit">Enviar</button>
